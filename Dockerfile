@@ -16,4 +16,4 @@ RUN echo 'cd /noVNC-1.2.0' >>/ccwsea2.sh
 RUN echo './utils/launch.sh  --vnc localhost:7900 --listen 8900 ' >>/ccwsea2.sh
 RUN chmod 755 /ccwsea2.sh
 EXPOSE 8900
-CMD  /ccwsea2.sh 
+CMD  /ccwsea2.sh
